@@ -69,7 +69,7 @@
                     <tr>
                
                         <td><input type="text" name="updateemail" value="${updateUser.email}" readonly>Email</td>                        
-                        <td><input type="text" name="updatefName" value="${updateUser.firstName}">Fisrt name</td>
+                        <td><input type="text" name="updatefName" value="${updateUser.firstName}">First name</td>
                         <td><input type="text" name="updatelName" value="${updateUser.lastName}">Last name</td>
                         <td><input type="text" name="updaterole" value="${updateUser.role.roleId}">Role</td>
                         <td><input type="text" name="updateactive" value="${updateUser.active}">Active</td>
