@@ -52,7 +52,7 @@
                                             <td><input type="text" name="newrole" placeholder="Role"></td>
                                             <td><input type="text" name="newactive" placeholder="Active"></td>
                                             <td>
-                                                <input type="hidden" name="action" value="create">
+                                                <input type="hidden" name="action" value="add">
                                                 <input type="submit" value="Add">
                                             </td>
                                         </tr>
