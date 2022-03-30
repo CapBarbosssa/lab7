@@ -42,8 +42,8 @@
                                     </td>
                                 </tr>
                             </c:forEach>
-                        <%--<c:if test="${user ne null}">--%>
-                                <form action="user" method="post">
+                      
+                                <form action="users" method="post">
                                     <table>
                                         <tr>
                                             <td><input type="text" name="newEmail" placeholder="Email"></td>
@@ -80,7 +80,6 @@
                     </tr>
                 </table>
             </form>
-        </c:if>
                 </div>
             </div>
         </div>
