@@ -53,18 +53,17 @@
                                             <td><input type="text" name="newactive" placeholder="Active"></td>
                                             <td>
                                                 <input type="hidden" name="action" value="add">
-                                                <input type="submit" value="Add">
+                                                 <button type="submit">Submit</button>
                                             </td>
                                         </tr>
                                     </table>
                                 </form>
-                            <%--</c:if>--%>
+                           
                         </tbody>
                     </table>
-                    
-            <c:if test="${updateUser ne null}">
+                   
           
-            <form action="user" method="post">
+            <form action="users" method="post">
                  <table>
                     <tr>
                
@@ -75,7 +74,7 @@
                         <td><input type="text" name="updateactive" value="${updateUser.active}">Active</td>
                         <td>
                             <input type="hidden" name="action" value="update">
-                            <input type="submit" value="Save">
+                            <button type="submit">Submit</button>
 
                         </td>
                     </tr>
