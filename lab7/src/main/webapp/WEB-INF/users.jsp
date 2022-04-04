@@ -43,7 +43,7 @@
                                 </tr>
                             </c:forEach>
                       
-                                <form action="users" method="post">
+                                <form action="user" method="post">
                                     <table>
                                         <tr>
                                             <td><input type="text" name="newEmail" placeholder="Email"></td>
@@ -63,7 +63,7 @@
                     </table>
                    
           
-            <form action="users" method="post">
+            <form action="user" method="post">
                  <table>
                     <tr>
                
